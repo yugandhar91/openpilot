@@ -617,8 +617,8 @@ def uninstall():
   os.system("service call power 16 i32 0 s16 recovery i32 1")
 
 def main():
-  # the flippening!
-  os.system('LD_LIBRARY_PATH="" content insert --uri content://settings/system --bind name:s:user_rotation --bind value:i:1')
+  # fix for the flippening!
+  os.system('LD_LIBRARY_PATH="" content insert --uri content://settings/system --bind name:s:user_rotation --bind value:i:3')
 
   if os.getenv("NOLOG") is not None:
     del managed_processes['loggerd']
