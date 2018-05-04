@@ -1,7 +1,9 @@
 About this branch
 ======
 
-With version 0.4.4, openpilot has made NEOs obsolete by flippening the screen thereby making EONs the only hardware that you can use openpilot on. While I totally support why they went that route, it is particularly difficult for cheap people like me to replace NEO with an EON so soon. Hence I decided to bring back my NEO to life by making some changes to the UI and replacing the current visiond with the one that's last known to work.
+With version 0.4.4, openpilot has made NEOs obsolete by flippening the screen thereby making EONs the only hardware that you can use openpilot on. While I totally support why they went that route, it is particularly difficult for people like me who wants to keep using existing NEO and not have the extra money to spend on an EON. Hence I decided to bring back my NEO to life by making some changes to the UI and replacing current visiond with the one that's last known to work.
+
+To install this version, please point your NEOS setup to ``https://github.com/yugandhar91/openpilot``.
 
 
 Welcome to openpilot
